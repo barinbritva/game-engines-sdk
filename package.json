@@ -1,5 +1,5 @@
 {
-    "name": "@ton/game-engines-sdk",
+    "name": "@barinbritva/game-engines-sdk",
     "engines": {
         "node": ">=18.0.0",
         "npm": ">=9.0.0"

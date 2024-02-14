@@ -1,3 +1,7 @@
+# ⚠️ WARING ⚠️
+It's my personal playground. Please use the official package [ton-org/game-engines-sdk](https://github.com/ton-org/game-engines-sdk/)
+
+
 # game-engines-sdk
 
 TON blockchain bindings and utilities for game engines:
@@ -7,7 +11,7 @@ TON blockchain bindings and utilities for game engines:
 # Getting started
 Installation:
 ```sh
-npm install --save @ton/phaser-sdk
+npm install --save @barinbritva/phaser-sdk
 ```
 
 Creating GameFi instance:

@@ -46,12 +46,12 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build --workspace @ton/${{ steps.get-package.outputs.package }}-sdk
+        run: npm run build --workspace @barinbritva/${{ steps.get-package.outputs.package }}-sdk
 
       - name: Publish
         run: |
           cd packages/${{ steps.get-package.outputs.package }}
-          if echo "${{ steps.get_version.outputs.version }}" | grep -q "\-beta"; then
+          if echo "${{ steps.get-package.outputs.version }}" | grep -q "\-beta"; then
             npm publish --access=public --tag=beta
           else
             npm publish --access=public
